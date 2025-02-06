@@ -9,5 +9,6 @@ int main(){
     *a_pointer += 4;
 
     printf("%d\n", a);
-    printf("%d\n", *a_pointer);
+    printf("%d\n", a_pointer); // memory address
+    printf("%d\n", *a_pointer); // value of a
 }
