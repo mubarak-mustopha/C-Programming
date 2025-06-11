@@ -1,0 +1,11 @@
+Desktop
+Documents
+Downloads
+Music
+nithub
+Pictures
+Public
+snap
+Templates
+test-admin-image-views
+Videos
