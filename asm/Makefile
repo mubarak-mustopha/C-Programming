@@ -11,3 +11,7 @@ jumps: jumps.out
 	ld -m elf_i386 jumps.out -o jumps
 jumps.out: jumps.s
 	as -32 jumps.s -o jumps.out
+loops: loops.out
+	ld -m elf_i386 loops.out -o loops
+loops.out: loops.s
+	as -32 loops.s -o loops.out
