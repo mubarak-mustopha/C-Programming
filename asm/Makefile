@@ -15,3 +15,7 @@ loops: loops.out
 	ld -m elf_i386 loops.out -o loops
 loops.out: loops.s
 	as -32 loops.s -o loops.out
+func: func.out
+	ld -m elf_i386 func.out -o func
+func.out: func.s
+	as -32 func.s -o func.out
