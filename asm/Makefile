@@ -19,3 +19,7 @@ func: func.out
 	ld -m elf_i386 func.out -o func
 func.out: func.s
 	as -32 func.s -o func.out
+power: power.out
+	ld -m elf_i386 power.out -o power
+power.out: power.s
+	as -32 power.s -o power.out
